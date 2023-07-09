@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "liveserver": "^0.1.20"
+  }
+}
