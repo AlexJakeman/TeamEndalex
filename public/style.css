@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|VT323');
+/* change font above!*/
+
+body {
+  font-family: Oswald;
+  color: #2c2b2b;
+}
+
+header a {
+  float: left;
+  background-color: #2c2b2b;
+  display: block;
+}
+
+.navbar {
+  position:fixed;top:0;left:0;right:0;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  width: 100%;
+  background-color: #2c2b2b;
+  display: flex;
+  align-items: center;
+  
+}
+
+#teamLogo {
+  float: left;
+  background-color: #2c2b2b;
+  display: inline;
+  height: 65px;
+  width: 65px;
+  padding: 10px 0px 10px 10px;
+}
+
+.pageBtns {
+  display: inline-block;
+  padding: 20px;
+  font-size: 180%;
+}
+
+#homeBtn {
+    color:#edcd1d;
+    text-transform: uppercase;
+}
+
+
+#teamBtn {
+    color:#edcd1d;
+    text-transform: uppercase;
+}
+
+#eventsBtn {
+    color:#edcd1d;
+    text-transform: uppercase;
+}
+
+#storeBtn {
+    color:#edcd1d;
+    text-transform: uppercase;
+}
+
+footer{
+  position:fixed;bottom:0;left:0;right:0;
+  background-color: #2c2b2b;
+}
+
+footer a {
+  text-decoration: none;   
+}
+
+.social-networks{
+  text-align: center;
+}
+
+.social-networks li{
+  display: inline;
+}
+
+.social-networks i{
+  font-size: 160%;
+  margin: 0%;
+  padding: 0%;
+  padding-inline: 50px;
+  color: #edcd1d;
+}
