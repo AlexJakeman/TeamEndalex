@@ -9,6 +9,15 @@
   <title>Endalex</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="script.js"></script>
+  <style>
+    .responsive img {
+      width: 100%;
+      height:auto;
+    }
+    #hero-outer {
+      height: auto;
+    }
+  </style>
 </head>
 
 <body>
@@ -25,7 +34,7 @@
             </a>
           </div>
           <ul class="nav-list">
-            <li><a href="/public/index.html">Home</a></li>
+            <li><a id="active" href="/public/index.html">Home</a></li>
             <li><a href="/public/store.html">Store</a></li>
             <li><a href="#">Our Teams</a>
               <ul class="nav-dropdown">
@@ -41,9 +50,74 @@
     </div>
   </header>
 
-  <section>
-    <h1>Welcome to the Endalex team page!</h1>
-    <div>Here you'll find the team's homepage placeholder text</div>
+  <section id="hero-outer">
+    <div class="responsive" id="hero-image">
+        <a><img src="/images/HeroImageHomepage.jpeg"></a>
+    </div>
+    <div id="cover-text">
+        <h2>
+            <u>Team Endalex</u>
+        </h2>
+        <h3>
+            We play to win!
+        </h3>
+    </div>
+  </section>
+  <section id="club-ethos">
+      <h2 id="welcome">
+          Welcome to the team!
+          We can't wait to have you aboard.
+      </h2>
+      <div id="left-about">
+        <div class="left-about-heading">
+          <h2>
+            Streamers <i class="fab fa-twitch"></i>
+          </h2>
+          <hr>
+          <p>
+            From console-based FPS to PC-based competitive shooters, Team Endalex's Streamers & Content Creators are dedicated to individual professional development in their respective games while also enriching their scenes with high-quality content creation across live and evergreen platforms such as Twitch and YouTube.
+          </p>
+        </div>
+        <div id="right-about">
+          <div class="right-about-heading">
+              <h2>
+                <i class="fas fa-crosshairs"></i> Counter Strike 2
+              </h2>
+              <hr>
+              <p>
+                Dating back to 2014, Team Endalex has had a long-standing presence in CS:GO. Now looking forward to Counter Strike 2, driven by their dedication and love for competition, Team Endalex CS2 is determined to win it all.
+              </p>
+          </div>
+          <div id="left-about">
+            <div class="left-about-heading">
+              <h2>
+                  Rocket League <i class="fas fa-rocket"></i>
+              </h2>
+              <hr>
+              <p>
+                Created in 2018, the Rocket League team climbed to the top very quickly with a title of European champion and also world champion in 2019. Since then, they have been winning all the time. The latest being the European Championship 2021 as well as the Intel World Open.
+              </p>
+            </div>
+          </div> 
+        </div>
+        <div id="right-about">
+          <div class="right-about-heading" id="homepage-pubg-para">
+            <h2>
+              <i class="fas fa-skull-crossbones"></i> PUBG Battle Royale
+            </h2>
+          <hr>
+          <p>
+            Team Endalex's presence within the PUBG scene has been renowned for 6 years. From winning the PUBG World Championship in their rookie year, as well as picking up three more trophies the next year. It's safe to say that their legacy is forever written in stone. 
+          </p>
+        </div>
+      </div>
+      <!-- <div id="center-about">
+          <div id="circle-container">
+              <div id="circle-cover-bg">
+                  <a class="responsive"><img src="/images/EndalexLOGO.png" height="220px"></a>
+              </div>
+          </div>
+      </div> -->
   </section>
 
   <footer>
