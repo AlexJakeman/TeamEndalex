@@ -133,3 +133,5 @@ Code from external sources ->
 
 # "Subscribe to our newsletter" form - https://uiverse.io/Yaya12085/spicy-panther-48
 
+# Events carousel - https://codepen.io/onion2k/pen/xxZYBVj 
+

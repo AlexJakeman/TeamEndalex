@@ -227,63 +227,169 @@ nav ul li ul li a{
 }
 
 
-/* ----- Rotating partner logos -----  */
+/* ----- Carousel for events -----  */
 
 
-@mixin white-gradient {
-	background: linear-gradient(to right,  rgb(3, 3, 3) 0%,rgba(255,255,255,0) 100%);
+.carousel-items-even {
+  background-color: #262626;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  height: auto;
+  flex-grow: 1;
+  text-align: center;
+  font-size: 120%;
 }
 
-$animationSpeed: 40s;
-
-// Animation
-@keyframes scroll {
-	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-250px * 7))}
+.carousel-items-even h2 {
+  background-color: #edcd1d;
+  color: #262626;
+  font-size: 140%;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin: 0;
 }
 
+.carousel-items-even h3 {
+  margin-top: 10px;
+  line-height: 1.6;
+  color:#fafafa
+}
 
-// Styling
-.slider {
-	background: white;
-	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-	height: 100px;
-	margin: auto;
-	overflow:hidden;
-	position: relative;
-	width: 960px;
-	
-	&::before,
-	&::after {
-		@include white-gradient;
-		content: "";
-		height: 100px;
-		position: absolute;
-		width: 200px;
-		z-index: 2;
-	}
-	
-	&::after {
-		right: 0;
-		top: 0;
-		transform: rotateZ(180deg);
-	}
+.carousel-items-odd {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  height: auto;
+  flex-grow: 1;
+  text-align: center;
+  font-size: 120%;
+}
 
-	&::before {
-		left: 0;
-		top: 0;
-	}
-	
-	.slide-track {
-		animation: scroll $animationSpeed linear infinite;
-		display: flex;
-		width: calc(250px * 14);
-	}
-	
-	.slide {
-		height: 100px;
-		width: 250px;
-	}
+.carousel-items-odd h2 {
+  background-color: #262626;
+  color: #edcd1d;
+  font-size: 140%;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin: 0;
+}
+
+.carousel-items-odd h3 {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.events-flags {
+  width: 30%;
+  height: auto;
+}
+
+#carousel {
+  height: 600px;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 500px 100px;
+  grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+main#carousel {
+  grid-row: 1 / 2;
+  grid-column: 1 / 8;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  --items: 5;
+  --middle: 3;
+  --position: 1;
+  pointer-events: none;
+}
+
+div.item {
+  position: absolute;
+  border-radius: 15px;
+  width: 300px;
+  height: 400px;
+  background-color: coral;
+  --r: calc(var(--position) - var(--offset));
+  --abs: max(calc(var(--r) * -1), var(--r));
+  transition: all 0.25s linear;
+  transform: rotateY(calc(-10deg * var(--r)))
+    translateX(calc(-300px * var(--r)));
+  z-index: calc((var(--position) - var(--abs)));
+}
+
+div.item:nth-of-type(1) {
+  --offset: 1;
+  background-color: #262626;
+}
+div.item:nth-of-type(2) {
+  --offset: 2;
+  background-color: #fafafa;
+}
+div.item:nth-of-type(3) {
+  --offset: 3;
+  background-color: #262626;
+}
+div.item:nth-of-type(4) {
+  --offset: 4;
+  background-color: #fafafa;
+}
+div.item:nth-of-type(5) {
+  --offset: 5;
+  background-color: #262626;
+}
+
+input:nth-of-type(1) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(1):checked ~ main#carousel {
+  --position: 1;
+}
+
+input:nth-of-type(2) {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(2):checked ~ main#carousel {
+  --position: 2;
+}
+
+input:nth-of-type(3) {
+  grid-column: 4 /5;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(3):checked ~ main#carousel {
+  --position: 3;
+}
+
+input:nth-of-type(4) {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(4):checked ~ main#carousel {
+  --position: 4;
+}
+
+input:nth-of-type(5) {
+  grid-column: 6 / 7;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(5):checked ~ main#carousel {
+  --position: 5;
 }
 
 /* ----- Store Images -----  */
@@ -465,6 +571,7 @@ $animationSpeed: 40s;
   justify-content: space-between;
   margin-bottom: 40px;
 }
+
 
 .left-card, .right-card, .top-card {
   background-color: #fff;
