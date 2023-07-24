@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+  <title>Endalex</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="nav-bar">
+      <div class="nav-container">
+        <div class="brand">
+          <a href="index.html"><img src="/EndalexLogoRtoL.png" alt="Endalex Team Logo" id="teamLogo" height="65px"></a>
+        </div>
+        <nav>
+          <div class="nav-mobile">
+            <a href="#" id="nav-toggle">
+              <span></span>
+            </a>
+          </div>
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="#"><u id="active">Our Teams</u></a>
+              <ul class="nav-dropdown">
+                <li><a id="active" href="streamers.html">Streamers</a></li>
+                <li><a href="csgo.html">CS:GO</a></li>
+                <li><a href="pubg.html">PUBG</a></li>
+                <li><a href="rocketleague.html">RLCS</a></li>
+              </ul>
+            </li>
+            <li><a href="events.html">Events</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <h2 class="page-header">
+      <strong>Streamers</strong>
+    </h2>
+    <h3 id="events-h3">
+      Introducing the Team Endalex lineup...
+    </h3>
+  </section>
+  <section class="carousel" aria-label="Gallery">
+    <ol class="carousel__viewport">
+      <li id="carousel__slide1"
+          tabindex="0"
+          class="carousel__slide">
+        <div class="carousel__snapper">
+          <a href="#carousel__slide4"
+             class="carousel__prev">Go to last slide</a>
+          <a href="#carousel__slide2"
+             class="carousel__next">Go to next slide</a>
+        </div>
+      </li>
+      <li id="carousel__slide2"
+          tabindex="0"
+          class="carousel__slide">
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide1"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide3"
+           class="carousel__next">Go to next slide</a>
+      </li>
+      <li id="carousel__slide3"
+          tabindex="0"
+          class="carousel__slide">
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide2"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide4"
+           class="carousel__next">Go to next slide</a>
+      </li>
+      <li id="carousel__slide4"
+          tabindex="0"
+          class="carousel__slide">
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide3"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide1"
+           class="carousel__next">Go to first slide</a>
+      </li>
+    </ol>
+    <aside class="carousel__navigation">
+      <ol class="carousel__navigation-list">
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide1"
+             class="carousel__navigation-button">Go to slide 1</a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide2"
+             class="carousel__navigation-button">Go to slide 2</a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide3"
+             class="carousel__navigation-button">Go to slide 3</a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide4"
+             class="carousel__navigation-button">Go to slide 4</a>
+        </li>
+      </ol>
+    </aside>
+  </section>
+
+<div class="left-card">
+  <h2>Streamers <i id="twitch-icon" class="fab fa-twitch"></i></h2>
+  <p>
+    Team Endalex boasts a remarkable roster of variety streamers who have taken the streaming world by storm. 
+    Each member of this eclectic group brings their own unique flair and expertise to the table, captivating audiences worldwide. 
+    From heart-pounding adventures in action-packed games to the mesmerizing artistry of creative streams, Team Endalex's variety streamers cover a diverse range of content that caters to every gaming enthusiast. 
+    With their engaging personalities, genuine interactions with viewers, and unwavering dedication, these streamers have fostered a vibrant and inclusive community, turning their channels into virtual hubs of entertainment and camaraderie. 
+    As trailblazers in the gaming industry, the variety streamers of Team Endalex continue to redefine the boundaries of gaming content and inspire countless others to follow in their footsteps. 
+  </p>
+  <p>
+    <img src="/endalex-streamer.jpeg" id="endalex-streamer" class="homepage-card-images" alt="Team Endalex Live Streamer">
+  </p>
+</div>
+
+  <footer>
+    <ul class="social-networks">
+      <li><a id="footer-text">Find us on:</a></li>
+      <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"> </i></li>
+      <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></li>
+      <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></li>
+      <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></li>
+    </ul>
+  </footer>
+  
+    
+</body>
+</html>

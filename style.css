@@ -12,7 +12,7 @@ body {
   background-color: #edcd1d;
   color: #262626;
 }
-
+/* ----- Navbar ----- */
 .nav-bar{
   height: 70px;
   background: #262626;
@@ -137,60 +137,223 @@ nav ul li ul li a{
   transform: rotate(-45deg);
 }
 
-.responsive {
-  max-width: 100%;
-  height: auto;
+/* ----- Leave a comment form ----- */
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
 }
 
-#hero-outer {
-  height: auto;
-  width: 100%;
-  overflow: hidden;
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.group {
   position: relative;
+  width: 90%;
+}
+
+.form .group label {
+  font-size: 14px;
+  color: rgb(99, 102, 102);
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: #fff;
+  transition: all .3s ease;
+}
+
+.form .group input,
+.form .group textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  outline: 0;
+  width: 100%;
+  background-color: transparent;
+}
+
+.form .group input:placeholder-shown+ label, .form .group textarea:placeholder-shown +label {
+  top: 10px;
+  background-color: transparent;
+}
+
+.form .group input:focus,
+.form .group textarea:focus {
+  border-color: #edcd1d;
+}
+
+.form .group input:focus+ label, .form .group textarea:focus +label {
+  top: -10px;
+  left: 10px;
+  background-color: #fff;
+  color: #262626;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form .group textarea {
+  resize: none;
+  height: 100px;
+}
+
+.form a button {
+  background-color: #262626;
+  color: #edcd1d;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form a button:hover {
+  background-color: #756409;
+  color: #262626;
+}
+
+/* ----- Store Images -----  */
+
+
+.photo {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0px;
+}
+
+.photo img{
+  width: 100%;
+  animation-name: hero-zoom;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  transition: transform 0.3s ease-in-out; 
 }
 
 @keyframes hero-zoom {
   from{
-      transform: scale(1);
+      transform: scale(0.9);
   }
   to{
-      transform: scale(1.1);
+      transform: scale(.95);
   }
 }
 
-#cover-text, #cover-text h2 {
+.photo img :hover {
+  transform: scale(1.5);
+}
+
+/* ----- Events Updates Form -----  */
+
+.subscription-form {
+  display: flex;
+  flex-direction: column;
+  background: #262626;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 350px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+}
+
+.subscription-title {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #edcd1d;
+}
+
+.subscription-description {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
   color: #fafafa;
 }
 
-#cover-text {
-  text-transform: uppercase;
-  text-align: center;
-  height: 170px;
-  padding-top: 70px;
-  background-color: #fafafa50;
-  top: 150px;
-  position: absolute;
+.subscription-form div {
+  display: flex;
+  max-width: 28rem;
+  margin-top: 1rem;
+  column-gap: 0.5rem;
 }
 
-#club-ethos {
-  height: 600px;
+.subscription-form div input {
+  outline: none;
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+  color: #262626;
+  padding: 0.5rem 0.875rem;
+  background-color: #fafafa;
+  border: 1px solid rgba(253, 253, 253, 0.363);
+  border-radius: 0.375rem;
+  flex: 1 1 auto;
 }
 
-hr {
-  border-top: 1px solid #777777;
-  width: 100%;
-  margin: 5px 0;
+.subscription-form div input::placeholder {
+  color: #262626;
 }
 
-.page-header {
-  text-align: center;
-  font-size: 280%;
-  color: #fafafa;
-  background-color: #26262670;
-  text-transform: uppercase;
+.subscription-form div input:focus {
+  border: 1px solid #edcd1d;
 }
 
-#twitch-icon, #pubg-icon, #cs2-icon, #rlcs-icon, #about-icon, #trophy-icon, #contact-icon {
+.subscription-form div button {
+  color: #262626;
+  background-color: #edcd1d;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subscription-form div button:hover {
+  background-color: #756409;
+  color: #fff;
+}
+    
+/* ----- Homepage cards / content -----  */
+
+.homepage-sidebar-images {
+  height: 200px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 10px;
+  border: 5px solid #262626;
+  background-color: #262626;
+}
+
+.homepage-card-images {
+  height: 200px;
+  width: auto;
+  border-radius: 10px;
+  border: 5px solid #262626;
+  background-color: #262626;
+  
+}
+
+#esports-icon, #twitch-icon, #pubg-icon, #cs2-icon, #rlcs-icon, #about-icon, #trophy-icon, #contact-icon {
   color:#fff
 }
 
@@ -198,6 +361,7 @@ hr {
   display: flex;
   max-width: 90%;
   margin: 20px auto;
+  text-align: center;
 }
 
 .sidebar {
@@ -239,7 +403,6 @@ hr {
 }
 
 .content {
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 40px;
@@ -249,7 +412,7 @@ hr {
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
   height: auto;
   flex-grow: 1;
@@ -270,7 +433,6 @@ hr {
   line-height: 1.6;
 }
 
-/* Style the sidebar list items */
 .sidebar ul {
   list-style: none;
   padding: 0;
@@ -282,34 +444,26 @@ hr {
 }
 
 .sidebar li:hover {
-  background-color: #2c5aa7;
-}
-.left-about-heading h2 {
-  text-align: right;
-  color:#fafafa;
-  background-color: #262626;
+  background-color: #756409;
+  color: #fff;
+  border-radius: 5px;
 }
 
-.right-about-heading h2 {
-  text-align: right;
-  color:#fafafa;
-  background-color: #262626;
-}
-
-.right-about-heading p, .left-about-heading p {
+#cover-text {
+  text-transform: uppercase;
   text-align: center;
-  background-color: #26262670;
+  height: 170px;
+  padding-top: 70px;
+  background-color: #fafafa50;
+  top: 150px;
+  position: absolute;
+}
+
+#cover-text, #cover-text h2 {
   color: #fafafa;
 }
 
-#welcome {
-  position: relative;
-  text-align: center;
-  font-size: 280%;
-  color: #fafafa;
-  background-color: #26262670;
-  text-transform: capitalize;
-}
+/* ----- Footer -----  */
 
 footer{
   position:fixed;bottom:0;left:0;right:0;
@@ -342,6 +496,49 @@ footer a {
   color: #edcd1d;
 } 
 
+/* ----- xxxx -----  */
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+#hero-outer {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#club-ethos {
+  height: 600px;
+}
+
+hr {
+  border-top: 1px solid #777777;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.page-header {
+  text-align: center;
+  font-size: 280%;
+  color: #fafafa;
+  background-color: #26262670;
+  text-transform: uppercase;
+}
+
+
+#welcome {
+  position: relative;
+  text-align: center;
+  font-size: 280%;
+  color: #fafafa;
+  background-color: #26262670;
+  text-transform: capitalize;
+}
+
+
 #events-h3 {
   text-align: center;
 }
@@ -369,31 +566,6 @@ footer a {
 
 }
 
-#photo {
-  clear: both;
-  line-height: 0;
-  column-count: 4;
-  column-gap: 0px;
-}
-
-#photo img{
-  width: 100%;
-}
-
-.store-page-header {
-  text-align: center;
-}
-
-.counterstrike-fixed-background {
-  position: fixed;
-  z-index: -1;
-  /* width: 200%; */
-  height: 1163px;
-  /* background-repeat: no-repeat; */
-  background-attachment: fixed;
-  background-position: center;
-  background: url(/images/counterstrike/counterstrike-fixed-background2.jpeg) no-repeat center center;
-}
 
 @media only screen and (max-width: 851px) {
 
@@ -485,7 +657,7 @@ footer a {
     padding: 0;
   }
 
-  #photo {
+  .photo {
     column-count: 2;
   }
 
@@ -524,6 +696,31 @@ footer a {
   .top-card {
     float: none;
   }
+
+  .subscription-form {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    width: 80%;
+  }
+  
+  .content {
+    display: flex;
+  }
+
+  #endalex-trophy {
+    height:auto;
+    width: 90%;
+  }
+
+  #endalex-streamer {
+    height:auto;
+    width: 90%;
+  }
+
+  .homepage-card-images {
+    text-align: center;
+  }
+  
 }
 
 @media screen and (min-width: 852px){
@@ -568,7 +765,7 @@ footer a {
     font-size: 150%;
 } 
 
-#photo {
+.photo {
     column-count: 3;
   }
   nav{
@@ -580,7 +777,7 @@ footer a {
     font-size: 180%;
   }
 
-  #photo {
+  .photo {
     column-count: 3;
   }
 
@@ -600,5 +797,6 @@ footer a {
   .content {
     width: 80%;
   }
+  
 }
 
