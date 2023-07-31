@@ -301,7 +301,7 @@ nav ul li ul li a{
 main#carousel {
   grid-row: 1 / 2;
   grid-column: 1 / 8;
-  width: 100vw;
+  width: 99vw;
   height: 500px;
   display: flex;
   align-items: center;
@@ -482,7 +482,7 @@ input:nth-of-type(5):checked ~ main#carousel {
   padding: 20px;
   border-radius: 10px;
   max-width: 350px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -624,7 +624,7 @@ input:nth-of-type(5):checked ~ main#carousel {
 
 .backSide,
 .backSide::before {
-  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  background-image: linear-gradient(160deg, #ffffff 0%, #edcd1d 100%);
 }
 
 .backSide {
@@ -662,8 +662,82 @@ input:nth-of-type(5):checked ~ main#carousel {
 
 /* ----- Homepage cards / content -----  */
 
+#read-more-btn {
+  margin-top: 10px;
+}
+
+
+
+.section-block {
+  /* border: 1px solid #ccc; */
+  /* padding: 10px; */
+  /* max-width: 400px; */
+  margin: 0 auto;
+}
+
+.article-content {
+  display: none;
+  padding: 10px 0;
+}
+
+.show-content {
+  display: block !important;
+}
+
+.partner-card {
+  background: #262626;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 20px;
+  position: relative;
+  border: 2px solid transparent;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 50px;
+}
+
+.partner-card:focus-within {
+  background-color: rgba(17, 17, 17, 0.5);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgb(27, 27, 27);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.partner-card button {
+  font-size: 34px;
+  background-color: transparent;
+  width: 40px;
+  /* padding: 7px; */
+  height: 40px;
+  border-radius: 100%;
+  transition: all 0.2s ease-in;
+  border: 0;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 10px;
+  align-content: center;
+}
+
+.partner-card p {
+  margin-top: 10px;
+}
+
 .homepage-sidebar-images {
   height: 200px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 10px;
+  border: 5px solid #262626;
+  background-color: #262626;
+}
+
+.article-images {
+  height: 300px;
   width: auto;
   margin-left: auto;
   margin-right: auto;
@@ -684,6 +758,10 @@ input:nth-of-type(5):checked ~ main#carousel {
 
 #esports-icon, #twitch-icon, #pubg-icon, #cs2-icon, #rlcs-icon, #about-icon, #trophy-icon, #contact-icon {
   color:#fff
+}
+
+#brand-icon {
+  color:#edcd1d
 }
 
 #cs-card {
@@ -707,8 +785,9 @@ input:nth-of-type(5):checked ~ main#carousel {
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   height: auto;
+  /* max-height: 1600px; */
 }
 
 .top-card ul li {
@@ -716,7 +795,7 @@ input:nth-of-type(5):checked ~ main#carousel {
 }
 
 .top-card h2 {
-  border-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .top-card p {
@@ -741,7 +820,6 @@ input:nth-of-type(5):checked ~ main#carousel {
 .content {
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 40px;
 }
 
 
@@ -954,27 +1032,6 @@ hr {
     text-overflow:clip;
     font-size: 200%;
   }
-/* 
-  .right-about-heading h2 {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    font-size: 150%;
-    text-indent: 10px;
-    padding-top: 2px;
-    padding-bottom: 3px;
-  }
-
-  
-  .left-about-heading h2 {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    font-size: 150%;
-    text-indent: 10px;
-    padding-top: 2px;
-    padding-bottom: 4px;
-  } */
 
   #cover-text {
     width: 30%;
@@ -1040,12 +1097,13 @@ hr {
 
   .subscription-form {
     margin-top: 10px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     width: 80%;
   }
   
   .content {
     display: flex;
+    width: 100%;
   }
 
   #endalex-trophy {
@@ -1095,6 +1153,37 @@ hr {
   #cs-card {
     text-align: center;
   }
+
+  .partner-card {
+    width: 60%;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .homepage-card-images {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-left: auto;
+  }
+
+  .left-card {
+    /* width: 90%; */
+    text-align: center;
+  }
+
+  .article-images {
+    width: 70%;
+    height: auto;
+  }
+
+  #return-home-btn {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (min-width: 852px){
@@ -1105,44 +1194,23 @@ hr {
     left: 0px;
     width: 20%;
     font-size: 200%;
-}
+  }
 
-.responsive {
-  height: auto;
-  max-height: 800px;
-}
+  .responsive {
+    height: auto;
+    max-height: 800px;
+  }
 
-#club-ethos {
+  #club-ethos {
     width: 100%;
     height: auto;
-} */
+  }
 
-.left-about-heading, .right-about-heading {
-    width: 100%;
-}
-
-.right-about-heading h2 {
-  width: 100%;
-  text-align: left;
-  font-size: 250%;
-}
-
-.left-about-heading h2 {
-  width: 100%;
-  text-align: right;
-  font-size: 250%;
-}
-
-.left-about-heading p, .right-about-heading p {
-    text-align: center;
-    padding: 30px;
-    font-size: 150%;
-} 
-
-.photo {
+  .photo {
     column-count: 3;
   }
-  nav{
+
+  nav {
     float: left;
     padding: 0 0 0 0px;
   }
@@ -1166,10 +1234,6 @@ hr {
 
   .top-card {
     display: none;
-  }
-
-  .content {
-    width: 80%;
   }
   
   .myCard {
@@ -1196,5 +1260,33 @@ hr {
   #cs-card {
     text-align: center;
   }
-}
 
+  #three-card-layout {
+    width: 70%;
+    margin: auto;
+  }
+
+  .partner-card {
+    width: 290px;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .partner-card p {
+    font-size: 160%;
+    margin-top: 10px;
+  }
+
+  .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+  }
+
+  .sidebar {
+    margin-top: 30px;
+  }
+}
