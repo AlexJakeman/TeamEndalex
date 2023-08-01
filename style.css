@@ -29,7 +29,7 @@ body {
   max-width: 1000px;
 }
 
-#active {
+.active {
   text-decoration: underline;
   text-decoration-color: #fafafa;
 }
@@ -210,7 +210,7 @@ nav ul li ul li a{
   height: 100px;
 }
 
-.form a button {
+.form span button {
   background-color: #262626;
   color: #edcd1d;
   border: none;
@@ -221,7 +221,7 @@ nav ul li ul li a{
   transition: all 0.3s ease;
 }
 
-.form a button:hover {
+.form span button:hover {
   background-color: #756409;
   color: #262626;
 }
@@ -288,7 +288,7 @@ nav ul li ul li a{
   height: auto;
 }
 
-#carousel {
+#carousel-1 {
   height: 600px;
   margin: 0;
   display: grid;
@@ -298,7 +298,7 @@ nav ul li ul li a{
   justify-items: center;
 }
 
-main#carousel {
+nav.carousel {
   grid-row: 1 / 2;
   grid-column: 1 / 8;
   width: 99vw;
@@ -354,7 +354,7 @@ input:nth-of-type(1) {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
 }
-input:nth-of-type(1):checked ~ main#carousel {
+input:nth-of-type(1):checked ~ nav.carousel {
   --position: 1;
 }
 
@@ -362,7 +362,7 @@ input:nth-of-type(2) {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
 }
-input:nth-of-type(2):checked ~ main#carousel {
+input:nth-of-type(2):checked ~ nav.carousel {
   --position: 2;
 }
 
@@ -370,7 +370,7 @@ input:nth-of-type(3) {
   grid-column: 4 /5;
   grid-row: 2 / 3;
 }
-input:nth-of-type(3):checked ~ main#carousel {
+input:nth-of-type(3):checked ~ nav.carousel {
   --position: 3;
 }
 
@@ -378,7 +378,7 @@ input:nth-of-type(4) {
   grid-column: 5 / 6;
   grid-row: 2 / 3;
 }
-input:nth-of-type(4):checked ~ main#carousel {
+input:nth-of-type(4):checked ~ nav.carousel {
   --position: 4;
 }
 
@@ -386,7 +386,7 @@ input:nth-of-type(5) {
   grid-column: 6 / 7;
   grid-row: 2 / 3;
 }
-input:nth-of-type(5):checked ~ main#carousel {
+input:nth-of-type(5):checked ~ nav.carousel {
   --position: 5;
 }
 
@@ -407,7 +407,7 @@ input:nth-of-type(5):checked ~ main#carousel {
 }
 
 .radio-input input:hover {
-  scale: 1.2;
+  /* scale: 1.2; */
   cursor: pointer;
   box-shadow: none;
 }
@@ -419,8 +419,8 @@ input:nth-of-type(5):checked ~ main#carousel {
   width: 1.3em;
   height: 0.2em;
   background-color: red;
-  rotate: 45deg;
-  scale: 0;
+  /* rotate: 45deg; */
+  /* scale: 0; */
   border-radius: 5px;
   transition: .4s ease-in-out;
 }
@@ -441,7 +441,7 @@ input:nth-of-type(5):checked ~ main#carousel {
 
 .radio-input input:checked + .plus1 {
   transform: rotate(180deg);
-  scale: 1;
+  /* scale: 1; */
 }
 
 /* ----- Store Images -----  */
@@ -557,6 +557,10 @@ input:nth-of-type(5):checked ~ main#carousel {
   width: 90%;
 }
 
+#teamLogo {
+  height: 65px;
+}
+
 .grid-item-right, .grid-item-left, .grid-item-center {
   width: 33%;
   display: block;
@@ -662,7 +666,7 @@ input:nth-of-type(5):checked ~ main#carousel {
 
 /* ----- Homepage cards / content -----  */
 
-#read-more-btn {
+#read-more-btn-1, #read-more-btn-2, #read-more-btn-3 {
   margin-top: 10px;
 }
 
@@ -704,7 +708,7 @@ input:nth-of-type(5):checked ~ main#carousel {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-.partner-card button {
+.partner-card span {
   font-size: 34px;
   background-color: transparent;
   width: 40px;
@@ -756,8 +760,12 @@ input:nth-of-type(5):checked ~ main#carousel {
   
 }
 
-#esports-icon, #twitch-icon, #pubg-icon, #cs2-icon, #rlcs-icon, #about-icon, #trophy-icon, #contact-icon {
+#esports-icon-1, #esports-icon-2, #twitch-icon, #pubg-icon, #cs2-icon, #rlcs-icon, #about-icon-1, #about-icon-2, #trophy-icon, #contact-icon-1, #contact-icon-2, #partner-text{
   color:#fff
+}
+
+#android-icon, #rebel-icon, #apple-icon, #paypal-icon {
+  color: #edcd1d;
 }
 
 #brand-icon {
@@ -939,7 +947,7 @@ hr {
   text-align: center;
   font-size: 280%;
   color: #fafafa;
-  background-color: #26262670;
+  background-color: #26262690;
   text-transform: uppercase;
 }
 
@@ -954,10 +962,11 @@ hr {
 }
 
 
-#events-h3 {
+.events-h3 {
   text-align: center;
   color: #262626;
-  background-color: #26262650;
+  background-color: #26262680;
+  font-size: 150%;
 }
 
 #times{
@@ -997,7 +1006,7 @@ hr {
 
   nav{
       width: 100%;
-      padding: 70, 0, 0, 0px;
+      padding: 70px 0 0 0;
   }
 
   nav ul{
@@ -1084,14 +1093,6 @@ hr {
   .sidebar {
     display: none;
   }
-
-  .right-card {
-    float: center;
-  }
-  
-  .left-card {
-    float: center;
-  }
   
   .top-card {
     float: none;
@@ -1162,6 +1163,7 @@ hr {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    
   }
 
   .homepage-card-images {
@@ -1248,7 +1250,7 @@ hr {
     padding-bottom: 30px;
   }
 
-  #grid-mobile {
+  #grid-mobile-1, #grid-mobile-2, #grid-mobile-3 {
     display: none;
   }
 
@@ -1263,7 +1265,7 @@ hr {
     text-align: center;
   }
 
-  #three-card-layout {
+  #three-card-layout-1, #three-card-layout-2, #three-card-layout-3 {
     width: 70%;
     margin: auto;
   }

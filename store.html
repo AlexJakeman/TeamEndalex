@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <title>Endalex</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="script.js"></script>
@@ -16,7 +16,7 @@
     <div class="nav-bar">
       <div class="nav-container">
         <div class="brand">
-          <a href="index.html"><img src="EndalexLogoRtoL.png" alt="Endalex Team Logo" id="teamLogo" height="65px"></a>
+          <a href="index.html"><img src="EndalexLogoRtoL.png" alt="Endalex Team Logo" id="teamLogo"></a>
         </div>
         <nav>
           <div class="nav-mobile">
@@ -26,7 +26,7 @@
           </div>
           <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
-            <li><a id="active" href="store.html">Store</a></li>
+            <li><a class="active" href="store.html">Store</a></li>
             <li><a href="#">Our Teams</a>
               <ul class="nav-dropdown">
                 <li><a href="streamers.html">Streamers</a></li>
@@ -44,73 +44,73 @@
 
   <section>
     <div class="page-header"><strong>TEAM ENDALEX STORE</strong></div>
-    <h3 id="events-h3">Merch coming soon!</h3>
+    <h3 class="events-h3">Merch coming soon!</h3>
   </section>
 
   <section class="photo">
-    <img src="logo-mask-1.png" class="thumbnail">
-    <img src="logo-mousepad-2.png" class="thumbnail">
-    <img src="logo-cap-1.png" class="thumbnail">
-    <img src="logo-hoodie-2.png" class="thumbnail">
-    <img src="phone-case-1.png" class="thumbnail">
-    <img src="phone-case-2.png" class="thumbnail">
-    <img src="logo-tee-2.png" class="thumbnail">
-    <img src="logo-beanie-1.png" class="thumbnail">
-    <img src="logo-mousepad-1.png" class="thumbnail">
-    <img src="logo-hoodie-1.png" class="thumbnail">
-    <img src="logo-tee-1.png" class="thumbnail">
-    <img src="logo-tee-3.png" class="thumbnail">
-</section>
+    <img src="logo-mask-1.png" class="thumbnail" alt="Team Endalex Branded Mask">
+    <img src="logo-mousepad-2.png" class="thumbnail" alt="Team Endalex Branded Mousepad">
+    <img src="logo-cap-1.png" class="thumbnail" alt="Team Endalex Branded Cap">
+    <img src="logo-hoodie-2.png" class="thumbnail" alt="Team Endalex Branded Hoodie">
+    <img src="phone-case-1.png" class="thumbnail" alt="Team Endalex Branded Phone Case">
+    <img src="phone-case-2.png" class="thumbnail" alt="Team Endalex Branded Phone Case">
+    <img src="logo-tee-2.png" class="thumbnail" alt="Team Endalex Branded Tee">
+    <img src="logo-beanie-1.png" class="thumbnail" alt="Team Endalex Branded Beanie">
+    <img src="logo-mousepad-1.png" class="thumbnail" alt="Team Endalex Branded Mousepad">
+    <img src="logo-hoodie-1.png" class="thumbnail" alt="Team Endalex Branded Hoodie">
+    <img src="logo-tee-1.png" class="thumbnail" alt="Team Endalex Branded Tee">
+    <img src="logo-tee-3.png" class="thumbnail" alt="Team Endalex Branded Tee">
+  </section>
 
-<section>
-  <form class="subscription-form" action="subscription-confirmation.html">
-    <span class="subscription-title">Subscribe to our newsletter.</span>
-    <p class="subscription-description">Sign up to our newsletter to get updates on our merch release dates, upcoming events, and other news!</p>
-    <div>
-      <input placeholder="Enter your email" type="email" name="email" required="" id="email-address">
-      <button type="submit">Subscribe</button>
-    </div>
-  </form>
-</section>
+  <section>
+    <form class="subscription-form" action="subscription-confirmation.html">
+      <span class="subscription-title">Subscribe to our newsletter.</span>
+      <p class="subscription-description">Sign up to our newsletter to get updates on our merch release dates, upcoming events, and other news!</p>
+      <div>
+        <input placeholder="Enter your email" type="email" name="email" required="" id="email-address">
+        <button type="submit">Subscribe</button>
+      </div>
+    </form>
+  </section>
 
-<section>
-  <div class="partner-card">
-    <p style="color: #fafafa;">
-      Partners:
-    </p>
-    <button>
-      <a href="https://www.apple.com" target="_blank">
-        <i class="fab fa-apple" id="brand-icon" alt="Team Endalex partner Apple"></i>
-      </a>
-    </button>
-    <button>
-      <a href="https://www.paypal.com/" target="_blank">
-        <i class="fab fa-cc-paypal" id="brand-icon" alt="Team Endalex partner PayPal"></i>
-      </a>
-    </button>
-    <button>
-      <a href="https://en.wikipedia.org/wiki/Rebel_Alliance" target="_blank">
-        <i class="fab fa-rebel" id="brand-icon" alt="Team Endalex partner Rebel"></i>
-      </a>
-    </button>
-    <button>
-      <a href="https://www.android.com/" target="_blank">
-        <i class="fab fa-android" id="brand-icon" alt="Team Endalex partner Android"></i>
-      </a>
-    </button>
-  </div>    
-</section>
+  <section>
+    <div class="partner-card">
+      <p id="partner-text">
+        Partners:
+      </p>
+      <span>
+        <a href="https://www.apple.com" target="_blank">
+          <i class="fab fa-apple" id="apple-icon"></i>
+        </a>
+      </span>
+      <span>
+        <a href="https://www.paypal.com/" target="_blank">
+          <i class="fab fa-cc-paypal" id="paypal-icon"></i>
+        </a>
+      </span>
+      <span>
+        <a href="https://en.wikipedia.org/wiki/Rebel_Alliance" target="_blank">
+          <i class="fab fa-rebel" id="rebel-icon"></i>
+        </a>
+      </span>
+      <span>
+        <a href="https://www.android.com/" target="_blank">
+          <i class="fab fa-android" id="android-icon"></i>
+        </a>
+      </span>
+    </div>    
+  </section>
 
-<footer>
-  <ul class="social-networks">
-    <li><a id="footer-text">Find us on:</a></li>
-    <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"> </i></li>
-    <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></li>
-    <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></li>
-    <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></li>
-  </ul>
-</footer>
-  
+  <footer>
+    <ul class="social-networks">
+      <li><a id="footer-text">Find us on:</a></li>
+      <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"> </i></a></li>
+      <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></a></li>
+      <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></a></li>
+      <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></a></li>
+    </ul>
+  </footer>
     
+      
 </body>
 </html>

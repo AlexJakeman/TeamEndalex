@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <title>Endalex</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="script.js"></script>
@@ -17,7 +17,7 @@
     <div class="nav-bar">
       <div class="nav-container">
         <div class="brand">
-          <a href="index.html"><img src="EndalexLogoRtoL.png" alt="Endalex Team Logo" id="teamLogo" height="65px"></a>
+          <a href="index.html"><img src="EndalexLogoRtoL.png" alt="Endalex Team Logo" id="teamLogo"></a>
         </div>
         <nav>
           <div class="nav-mobile">
@@ -28,11 +28,11 @@
           <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
             <li><a href="store.html">Store</a></li>
-            <li><a href="#"><u id="active">Our Teams</u></a>
+            <li><a href="#"><u class="active">Our Teams</u></a>
               <ul class="nav-dropdown">
                 <li><a href="streamers.html">Streamers</a></li>
                 <li><a href="csgo.html">CS:GO</a></li>
-                <li><a id="active" href="pubg.html">PUBG</a></li>
+                <li><a class="active" href="pubg.html">PUBG</a></li>
                 <li><a href="rocketleague.html">RLCS</a></li>
               </ul>
             </li>
@@ -47,7 +47,7 @@
     <h2 class="page-header">
       <strong>PUBG - Battle Royale</strong>
     </h2>
-    <h3 id="events-h3">
+    <h3 class="events-h3">
       Introducing the Team Endalex PUBG lineup...
     </h3>
   </section>
@@ -55,7 +55,7 @@
   <div class="grid-container-teams" id="grid-desktop">
     <div class="grid-item-left">
       <div class="myCard">
-        <div class="innerCard" id="three-card-layout">
+        <div class="innerCard" id="three-card-layout-1">
           <div class="frontSide">
             <p class="myTitle">KONRAD</p>
             <p class="myTitle">IGL</p>
@@ -73,7 +73,7 @@
     </div>
     <div class="grid-item-center">
       <div class="myCard">
-        <div class="innerCard" id="three-card-layout">
+        <div class="innerCard" id="three-card-layout-2">
           <div class="frontSide">
             <p class="myTitle">MUSLI</p>
             <p class="myTitle">SNIPER</p>
@@ -91,7 +91,7 @@
     </div>
     <div class="grid-item-left">
       <div class="myCard">
-        <div class="innerCard" id="three-card-layout">
+        <div class="innerCard" id="three-card-layout-3">
           <div class="frontSide">
             <p class="myTitle">MORITS</p>
             <p class="myTitle">RIFLE</p>
@@ -109,7 +109,7 @@
     </div>
   </div>
 
-  <div class="grid-container-teams" id="grid-mobile">
+  <div class="grid-container-teams" id="grid-mobile-1">
     <div class="grid-item-left">
       <div class="myCard">
         <div class="innerCard">
@@ -147,7 +147,7 @@
       </div>
     </div>
   </div>    
-  <div class="grid-container-teams" id="grid-mobile">
+  <div class="grid-container-teams" id="grid-mobile-2">
     <div class="bottom-player-csgo">
       <div class="myCard">
         <div class="innerCard">
@@ -185,6 +185,7 @@
     <p>
       Rounding out the trio is Konrad, the team's strategic mastermind, whose calculated decisions and shot-calling lead the team to tactical triumphs. 
     </p>
+    <p>
       With seamless communication and a shared passion for victory, Team Endalex's PUBG squad has carved their path to success, earning them a spot among the elite ranks of PUBG esports, and they continue to inspire fans and adversaries alike with their impressive performances and unwavering dedication to the game.
     </p>
     <p>
@@ -194,39 +195,39 @@
 
   <section>
     <div class="partner-card">
-      <p style="color: #fafafa;">
+      <p id="partner-text">
         Partners:
       </p>
-      <button>
+      <span>
         <a href="https://www.apple.com" target="_blank">
-          <i class="fab fa-apple" id="brand-icon" alt="Team Endalex partner Apple"></i>
+          <i class="fab fa-apple" id="apple-icon"></i>
         </a>
-      </button>
-      <button>
+      </span>
+      <span>
         <a href="https://www.paypal.com/" target="_blank">
-          <i class="fab fa-cc-paypal" id="brand-icon" alt="Team Endalex partner PayPal"></i>
+          <i class="fab fa-cc-paypal" id="paypal-icon"></i>
         </a>
-      </button>
-      <button>
+      </span>
+      <span>
         <a href="https://en.wikipedia.org/wiki/Rebel_Alliance" target="_blank">
-          <i class="fab fa-rebel" id="brand-icon" alt="Team Endalex partner Rebel"></i>
+          <i class="fab fa-rebel" id="rebel-icon"></i>
         </a>
-      </button>
-      <button>
+      </span>
+      <span>
         <a href="https://www.android.com/" target="_blank">
-          <i class="fab fa-android" id="brand-icon" alt="Team Endalex partner Android"></i>
+          <i class="fab fa-android" id="android-icon"></i>
         </a>
-      </button>
+      </span>
     </div>    
   </section>
 
   <footer>
     <ul class="social-networks">
       <li><a id="footer-text">Find us on:</a></li>
-      <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"> </i></li>
-      <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></li>
-      <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></li>
-      <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></li>
+      <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"> </i></a></li>
+      <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></a></li>
+      <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></a></li>
+      <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></a></li>
     </ul>
   </footer>
   
