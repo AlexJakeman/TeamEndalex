@@ -2,7 +2,8 @@
 
 [View the live project here.](https://alexjakeman.github.io/TeamEndalex.github.io)
 
-This is the main marketing website for all things Team Endalex. It is designed to be responsive and accessible on a range of devices, making it easy for potential fans to navigate.
+This is the main marketing website for all things Team Endalex. 
+It is designed to be responsive and accessible on a range of devices, making it easy for potential fans to navigate.
 
 <h2 align="center"><img src="TeamEndalex.png"></h2>
 
@@ -100,60 +101,85 @@ https://www.figma.com/file/PKzyS4SEn5Tz7YoC3Jse38/TeamEndalex-Figma---Mobile-%2F
 
 ## Testing
 
-    // INSERT W3C MARKUP AND CSS VALIDATOR RESULTS
+### Known Issues
 
-    // INSERT GOALS FOR FIRST TIME, RETURNING, FREQUENT USERS (SEE SAMPLE README)
-
+    --   --r: calc(var(--position) - var(--offset));
+    The above line is part of an external code block that is used for the functionality of the carousel within the Events page.
+    -- The .mov file on the CSGO page works locally on branch/LiveServer however GitPages is not able to show files past a certain size, therefore it won't play when deployed to GitPages.
+    ![Error from GitHub regarding video file size.](GitPagesError.png)
 
 ### W3C
 
+- Checked all HTML and CSS manually using (https://jigsaw.w3.org/css-validator/#validate_by_input)
 
+#### HTML
 
-        Known Issues
-             --   --r: calc(var(--position) - var(--offset));
-            The above line is part of an external code block that is used for the functionality of the carousel within the Events page.
+- There are no clear HTML issues within the project. Checked using W3C VS Code extension (https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
+
+#### CSS
+
+- There is one CSS issue within the project. Checked using W3C VS Code extension (https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
+        
 
 ### Testing User Stories from User Experience (UX) Section
     
 #### First Time Visitor Goals
 
     1- As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-        a.
+        a. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+        b. When a user selects a social media link, they will be redirected in a new tab to the social media link.
     
     2- I also expect a clear and prominent "Ask us a question" form on the home page to assist me in case I have any questions or need support while navigating the website.
-        a.
+        a. Once the new visitor has read the About The Team and About Our CEO sections, they will notice the Ask Us A Question section.
+        b. When a new visitor fills out the question form, they will be re-directed to the confirmation page.
+        c. When a user fills out the form with invalid input data, they will receive an error pop up message.
 
     3- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        a.            
+        a. The user will open the homepage and be able to read about the ogranization and CEO, as well as recent news for the organization.
+        b. When the user selects Read More on an article to understand better a news article, they will be redirected to an article page.
     
     4- As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.        
-        a.
+        a. The user will be able to navigate through the site using the navigation bar at the top of the page.
+        b. The navigation bar has an underline on whatever page they're on to help make it clear where they are at that current moment.
+        c. At the bottom of the article pages and Subscription / Question confirmation pages, there is a 'Return Home' button.
 
 #### Returning Visitor Goals
 
     1- As a returning User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the organisation or it's teams.
-        a.
+        a. When a user signs up to the newsletter using the form, they will be redirected to the confirmation page.
+        b. The confirmation page will have a clear 'Return Home' button and a message that re-assures the user of confirmation that they've subscribed.
+        c. When a user inputs invalid data in the form, they will be given a pop-up error above the field to assist them.
 
     2- As a returning user of Team Endalex's portfolio website, I want to see the latest updates on the teams' performances in Counter Strike, PUBG, and Rocket League on the home page. The "Ask us a question" form should still be readily available on the home page in case I require any assistance during my visit.
-        a.
+        a. On the homepage, there are three clear articles with images to attract users.
+        b. The articles have the first paragraph of content and then a 'Read 'More' button that will redirect to an article page.
+        c. The 'Ask Us A Question' form will be accessible in the sidebar on desktop and at the bottom of the page on mobile.
 
     3- As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        a.
+        a. The 'Ask Us A Question' form will be accessible in the sidebar on desktop and at the bottom of the page on mobile.
+        b.  When a user inputs invalid data in the 'Ask Us A Question' form, they will be given a pop-up error above the field to assist them.
+
 
 #### Frequent User Goals    
 
-    1- I appreciate having a user-friendly "Ask us a question" form on the homepage that allows me to quickly submit inquiries or feedback about the website or Team Endalex's activities.
-        a.
+    1- As a Frequent User, I appreciate having a user-friendly 'Ask us a question' form on the homepage that allows me to quickly submit inquiries or feedback about the website or Team Endalex's activities.
+        a. The 'Ask Us A Question' form will be accessible in the sidebar on desktop and at the bottom of the page on mobile.
+        b. The 'Ask Us A Question' form is styled to match the rest of the site, whilst also being a stand-out form on the homepage.
+        c. b. The confirmation page will have a clear 'Return Home' button and a message that re-assures the user of confirmation that their question/feedback has been received.
 
     2- As a Frequent User, I want to check to see if there are any new team-based updates on the homepage
-        a.            
+        a. The user would already be comfortable with the website layout and can easily navigate to the homepage articles or to the individual esports team pages.
+        b. The articles have the first paragraph of content and then a 'Read 'More' button that will redirect to an article page.
+        c. The article pages will have an image that is related to the context of the article, as well as a clear 'Return Home' button.
 
     3- As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        a.
+        a. On the 'Store' page and 'Events' page, there will be a clear subscription form at the bottom of the page for the user to fill out.
+        b. The form has validation on the field to ensure that a valid email is inputted by the user.
+        c. The form leads to a confirmation page that has a message that confirms the user is subscribed, as well as having a clear 'Return Home' button.
     
 ### Further Testing
 
-- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- The Website was tested on Google Chrome, Internet Explorer, Opera and Safari browsers.
 
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX
 
@@ -175,7 +201,10 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
     
-### Liveserver (localhost:5500)
+### LiveServer (localhost:5500)
+
+The project was deployed to LiveServer using the following steps...
+
     1. Install Liveserver extension for Visual Studio Code.
     2. Select "Go Live" in the bottom right of VS Code.
     3. Observe browser window has opened with a local version of your website.
