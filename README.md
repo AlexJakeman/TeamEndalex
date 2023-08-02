@@ -77,26 +77,26 @@ https://www.figma.com/file/PKzyS4SEn5Tz7YoC3Jse38/TeamEndalex-Figma---Mobile-%2F
 
 ### Frameworks, Libraries & Programs Used
 
-    Google Fonts (https://fonts.google.com/specimen/Oswald?query=oswald):
-        Google fonts were used to import the 'OSWALD' font into the style.css file which is used on all pages throughout the project.
+- Google Fonts (https://fonts.google.com/specimen/Oswald?query=oswald):
+    Google fonts were used to import the 'OSWALD' font into the style.css file which is used on all pages throughout the project.
 
-    Font Awesome (https://fontawesome.com/):
-        Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+- Font Awesome (https://fontawesome.com/):
+    Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-    GitHub (https://github.com/):
-        GitHub is used to store the projects code after being pushed from Git.
+- GitHub (https://github.com/):
+    GitHub is used to store the projects code after being pushed from Git.
 
-    Figma (https://www.figma.com/)
-        Figma was used to create the wireframes during the design process.
+- Figma (https://www.figma.com/)
+    Figma was used to create the wireframes during the design process.
 
-    Uiverse.io (https://uiverse.io/)
-        Uiverse is a helpful site that gives open-source code for pre-designed HTML/CSS components.
+- Uiverse.io (https://uiverse.io/)
+    Uiverse is a helpful site that gives open-source code for pre-designed HTML/CSS components.
 
-    Adobe Stock (https://stock.adobe.com/)
-        Some images on my website are source from Adobe Stock.
+- Adobe Stock (https://stock.adobe.com/)
+    Some images on my website are source from Adobe Stock.
 
-    Printify (printify.com/app/)
-        Printify was used as a helpful tool to put my custom logos on merchandise for the store page.
+- Printify (printify.com/app/)
+    Printify was used as a helpful tool to put my custom logos on merchandise for the store page.
 
 ## Testing
 
@@ -188,26 +188,36 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 3. You should now have a copy of the original repository in your GitHub account.
 
 ## Notables (regarding assessment criterias)
+
 ### File structure within project
+
 - I would have preferred to keep image files, page html files and stylesheets all separate in order to improve organization, however GitPages was unable to work without having them all at the main branch level. As per commits in the early stages of the project, I did have separate folders for different files within the project.
 
-Credits
+## Credits
 
-    Content
-        All text-based content was written by the developer.
+### Content
 
-    Acknowledgements
-        Inspiration taken from "BIGClAN.gg" and "Cloud9.gg" for design purposes.
+- All text-based content was written by the developer.
+- Stock images were found from Adobe Stock (as per "Technologies used" section).
+- Video was from ShutterStock (as per "Technologies used" section).
+- Merchandise images were generated on Printify (as per "Technologies used" section).
 
-    Code snippets from external sources ->
-        # Hamburger menu - https://www.codewithfaraz.com/content/65/how-to-create-a-responsive-navbar-with-hamburger-menu-using-html-css-and-javascript
+### Acknowledgements
 
-        # "Ask us a question" form - https://uiverse.io/Yaya12085/friendly-emu-87
+- Inspiration taken from "BIGClAN.gg" and "Cloud9.gg" for design purposes.
+- Tutor support at Code Institute for their support.
+- Peter at UCP for assisting with weekly check-ins.
 
-        # "Subscribe to our newsletter" form - https://uiverse.io/Yaya12085/spicy-panther-48
+### Code snippets from external sources ->
 
-        # Events carousel - https://codepen.io/onion2k/pen/xxZYBVj 
+- Hamburger menu - https://www.codewithfaraz.com/content/65/how-to-create-a-responsive-navbar-with-hamburger-menu-using-html-css-and-javascript
 
-        # Carousel Radio Buttons - https://uiverse.io/Praashoo7/cold-mayfly-100
+- "Ask us a question" form - https://uiverse.io/Yaya12085/friendly-emu-87
 
-        # Team cards - https://uiverse.io/htwarriors108/tasty-stingray-56
+- "Subscribe to our newsletter" form - https://uiverse.io/Yaya12085/spicy-panther-48
+
+- Events carousel - https://codepen.io/onion2k/pen/xxZYBVj 
+
+- Carousel Radio Buttons - https://uiverse.io/Praashoo7/cold-mayfly-100
+
+- Team cards - https://uiverse.io/htwarriors108/tasty-stingray-56
