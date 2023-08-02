@@ -15,31 +15,47 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
     1- As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-    ![Image of the footer in the final project](Footer-Test-Image.png)
+![Image of the footer in the final project](Footer-Test-Image.png)
             
     2- I also expect a clear and prominent "Ask us a question" form on the home page to assist me in case I have any questions or need support while navigating the website.
 
-    ![Image of the Ask Us A Question form in the final project](AskAQuestionForm-Image.png)
+![Image of the Ask Us A Question form in the final project](AskAQuestionForm-Image.png)
 
     3- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+
+![]()
             
-    4- As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.        
+    4- As a First Time Visitor, I want to be able to easily navigate throughout the site to find content. 
+
+![]()       
         
 #### Returning Visitor Goals
 
     1- As a returning User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the organisation or it's teams.
+
+![]()
             
     2- As a returning user of Team Endalex's portfolio website, I want to see the latest updates on the teams' performances in Counter Strike, PUBG, and Rocket League on the home page. The "Ask us a question" form should still be readily available on the home page in case I require any assistance during my visit.
 
+![]()
+
     3- As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+
+![]()
         
 #### Frequent User Goals         
 
     1- I appreciate having a user-friendly "Ask us a question" form on the homepage that allows me to quickly submit inquiries or feedback about the website or Team Endalex's activities.
+
+![]()
                         
-    2- As a Frequent User, I want to check to see if there are any new team-based updates on the homepage
+    2- As a Frequent User, I want to check to see if there are any new team-based updates on the homepage.
+
+![]()
             
     3- As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+
+![]()
 
 ### Design
 
