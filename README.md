@@ -14,8 +14,12 @@ It is designed to be responsive and accessible on a range of devices, making it 
 #### First Time Visitor Goals
 
     1- As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+
+    [Image of the footer in the final project](Footer-Test-Image.png)
             
     2- I also expect a clear and prominent "Ask us a question" form on the home page to assist me in case I have any questions or need support while navigating the website.
+
+    [Image of the Ask Us A Question form in the final project](AskAQuestionForm-Image.png)
 
     3- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
             
