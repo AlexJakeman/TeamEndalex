@@ -23,39 +23,39 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
     3- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-![]()
+![Image of the About section in the sidebar on the homepage](/About-Org-Image.png)
             
     4- As a First Time Visitor, I want to be able to easily navigate throughout the site to find content. 
 
-![]()       
+![Image of website's navbar](/Navbar-Image.png)       
         
 #### Returning Visitor Goals
 
     1- As a returning User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the organisation or it's teams.
 
-![]()
+![Image of Newsletter subscription form](/Newsletter-Form-Image.png)
             
     2- As a returning user of Team Endalex's portfolio website, I want to see the latest updates on the teams' performances in Counter Strike, PUBG, and Rocket League on the home page. The "Ask us a question" form should still be readily available on the home page in case I require any assistance during my visit.
 
-![]()
+![Image of Homepage Article](/Homepage-Article-Image.png)
 
     3- As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
-![]()
+![Image of the Ask Us A Question form in the final project](/AskAQuestionForm-Image.png)
         
 #### Frequent User Goals         
 
     1- I appreciate having a user-friendly "Ask us a question" form on the homepage that allows me to quickly submit inquiries or feedback about the website or Team Endalex's activities.
 
-![]()
+![Image of the confirmation page after using the Ask Us A Question form](/Question-Confirmation-Image.png)
                         
     2- As a Frequent User, I want to check to see if there are any new team-based updates on the homepage.
 
-![]()
+![Image of Homepage Article](/Homepage-Article-Image.png)
             
     3- As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
-![]()
+![Image of Newsletter subscription confirmation page](/Confirmation-Newsletter-Image.png)
 
 ### Design
 
