@@ -11,12 +11,12 @@
   <script src="script.js"></script>
 </head>
 
-<body id="store-page">
+<body>
   <header>
     <div class="nav-bar">
       <div class="nav-container">
         <div class="brand">
-          <a href="index.html"><img src="EndalexLogoRtoL.png" alt="Endalex Team Logo" id="teamLogo"></a>
+          <a href="index.html"><img src="images/EndalexLogoRtoL.png" alt="Endalex Team Logo" id="teamLogo"></a>
         </div>
         <nav>
           <div class="nav-mobile">
@@ -26,7 +26,7 @@
           </div>
           <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="store.html">Store</a></li>
+            <li><a href="store.html">Store</a></li>
             <li><a href="#">Our Teams</a>
               <ul class="nav-dropdown">
                 <li><a href="streamers.html">Streamers</a></li>
@@ -35,7 +35,7 @@
                 <li><a href="rocketleague.html">RLCS</a></li>
               </ul>
             </li>
-            <li><a href="events.html">Events</a></li>
+            <li><a class="active" href="events.html">Events</a></li>
           </ul>
         </nav>
       </div>
@@ -43,25 +43,75 @@
   </header>
 
   <section>
-    <div class="page-header"><strong>TEAM ENDALEX STORE</strong></div>
-    <h3 class="events-h3">Merch coming soon!</h3>
+    <h2 class="page-header">
+      <strong>UPCOMING EVENTS</strong>
+    </h2>
+    <h3 class="events-h3">
+      Here you can find our upcoming events for all our teams!
+    </h3>
   </section>
 
-  <section class="photo">
-    <img src="logo-mask-1.png" class="thumbnail" alt="Team Endalex Branded Mask">
-    <img src="logo-mousepad-2.png" class="thumbnail" alt="Team Endalex Branded Mousepad">
-    <img src="logo-cap-1.png" class="thumbnail" alt="Team Endalex Branded Cap">
-    <img src="logo-hoodie-2.png" class="thumbnail" alt="Team Endalex Branded Hoodie">
-    <img src="phone-case-1.png" class="thumbnail" alt="Team Endalex Branded Phone Case">
-    <img src="phone-case-2.png" class="thumbnail" alt="Team Endalex Branded Phone Case">
-    <img src="logo-tee-2.png" class="thumbnail" alt="Team Endalex Branded Tee">
-    <img src="logo-beanie-1.png" class="thumbnail" alt="Team Endalex Branded Beanie">
-    <img src="logo-mousepad-1.png" class="thumbnail" alt="Team Endalex Branded Mousepad">
-    <img src="logo-hoodie-1.png" class="thumbnail" alt="Team Endalex Branded Hoodie">
-    <img src="logo-tee-1.png" class="thumbnail" alt="Team Endalex Branded Tee">
-    <img src="logo-tee-3.png" class="thumbnail" alt="Team Endalex Branded Tee">
-  </section>
 
+  <section id="carousel-1" class="radio-input">
+      <input type="radio" name="position" checked >
+      <input type="radio" name="position" >
+      <input type="radio" name="position" >
+      <input type="radio" name="position" >
+      <input type="radio" name="position" >
+      <nav class="carousel">
+        <div class="item">
+          <div class="carousel-items-odd">
+            <h2>CSGO <i class="fas fa-crosshairs"></i></h2>
+            <h3>Germany - Köln</h3>
+            <h3>Lanxess Arena</h3>
+            <h3>23/08/23 - 15:30</h3>
+            <h3>$500k</h3>
+            <h3><img src="images/germany-flag.png" class="events-flags" alt="German Flag"></h3>
+          </div>
+        </div>
+        <div class="item">
+          <div class="carousel-items-even">
+            <h2>RLCS <i class="fas fa-rocket"></i></h2>
+            <h3>England - London</h3>
+            <h3>Wembley Arena</h3>
+            <h3>26/08/23 - 14:00</h3>
+            <h3>$100k</h3>
+            <h3><img src="images/england-flag.png" class="events-flags" alt="England Flag"></h3>
+          </div>
+        </div>
+        <div class="item">
+          <div class="carousel-items-odd">
+            <h2>CSGO <i class="fas fa-crosshairs"></i></h2>
+            <h3>Brazil - Rio de Janiro</h3>
+            <h3>Jeunesse Arena</h3>
+            <h3>29/08/23 - 17:00</h3>
+            <h3>$1.25M</h3>
+            <h3><img src="images/brazil-flag.png" class="events-flags" alt="Brazil Flag"></h3>
+          </div>
+        </div>
+        <div class="item">
+          <div class="carousel-items-even">
+            <h2>PUBG <i class="fas fa-skull-crossbones"></i></h2>
+            <h3>Spain - Barcelona</h3>
+            <h3>The Camp Nou</h3>
+            <h3>04/09/23 - 16:30</h3>
+            <h3>$250k</h3>
+            <h3><img src="images/spain-flag.png" class="events-flags" alt="Spain Flag"></h3>
+          </div>
+        </div>
+        <div class="item">
+          <div class="carousel-items-odd">
+            <h2>CSGO <i class="fas fa-crosshairs"></i></h2>
+            <h3>Australia - Melbourne</h3>
+            <h3>Sydney Opera House</h3>
+            <h3>08/09/23 - 12:30</h3>
+            <h3>$2.5M</h3>
+            <h3><img src="images/australia-flag.png" class="events-flags" alt="Australia Flag"></h3>
+          </div>
+        </div>
+      </nav>
+  </section>
+  
   <section>
     <form class="subscription-form" action="subscription-confirmation.html">
       <span class="subscription-title">Subscribe to our newsletter.</span>
@@ -110,7 +160,5 @@
       <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></a></li>
     </ul>
   </footer>
-    
-      
 </body>
 </html>
