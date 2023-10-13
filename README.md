@@ -5,7 +5,7 @@
 This is the main marketing website for all things Team Endalex. 
 It is designed to be responsive and accessible on a range of devices, making it easy for potential fans to navigate.
 
-<h2 align="center"><img src="TeamEndalex.png"></h2>
+<h2 align="center"><img src="/public/images/readme/team-endalex.png"></h2>
 
 ## User Experience (UX)
 
@@ -15,47 +15,47 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
     1- As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-![Image of the footer in the final project](/Footer-Test-Image.png)
+![Image of the footer in the final project](/public/images/readme/footer-test-image.png)
             
     2- I also expect a clear and prominent "Ask us a question" form on the home page to assist me in case I have any questions or need support while navigating the website.
 
-![Image of the Ask Us A Question form in the final project](/AskAQuestionForm-Image.png)
+![Image of the Ask Us A Question form in the final project](/public/images/readme/ask-a-question-form-image.png)
 
     3- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-![Image of the About section in the sidebar on the homepage](/About-Org-Image.png)
+![Image of the About section in the sidebar on the homepage](/public/images/readme/about-org-image.png)
             
     4- As a First Time Visitor, I want to be able to easily navigate throughout the site to find content. 
 
-![Image of website's navbar](/Navbar-Image.png)       
+![Image of website's navbar](/public/images/readme/navbar-image.png)       
         
 #### Returning Visitor Goals
 
     1- As a returning User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the organisation or it's teams.
 
-![Image of Newsletter subscription form](/Newsletter-Form-Image.png)
+![Image of Newsletter subscription form](/public/images/readme/newsletter-form-image.png)
             
     2- As a returning user of Team Endalex's portfolio website, I want to see the latest updates on the teams' performances in Counter Strike, PUBG, and Rocket League on the home page. The "Ask us a question" form should still be readily available on the home page in case I require any assistance during my visit.
 
-![Image of Homepage Article](/Homepage-Article-Image.png)
+![Image of Homepage Article](/public/images/readme/homepage-article-image.png)
 
     3- As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
-![Image of the Ask Us A Question form in the final project](/AskAQuestionForm-Image.png)
+![Image of the Ask Us A Question form in the final project](/public/images/readme/ask-a-question-form-image.png)
         
 #### Frequent User Goals         
 
     1- I appreciate having a user-friendly "Ask us a question" form on the homepage that allows me to quickly submit inquiries or feedback about the website or Team Endalex's activities.
 
-![Image of the confirmation page after using the Ask Us A Question form](/Question-Confirmation-Image.png)
+![Image of the confirmation page after using the Ask Us A Question form](/public/images/readme/question-confirmation-image.png)
                         
     2- As a Frequent User, I want to check to see if there are any new team-based updates on the homepage.
 
-![Image of Homepage Article](/Homepage-Article-Image.png)
+![Image of Homepage Article](/public/images/readme/homepage-article-image.png)
             
     3- As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
-![Image of Newsletter subscription confirmation page](/Confirmation-Newsletter-Image.png)
+![Image of Newsletter subscription confirmation page](/public/images/readme/confirmation-newsletter-image.png)
 
 ### Design
 
@@ -126,7 +126,7 @@ https://www.figma.com/file/PKzyS4SEn5Tz7YoC3Jse38/TeamEndalex-Figma---Mobile-%2F
     --   --r: calc(var(--position) - var(--offset));
     The above line is part of an external code block that is used for the functionality of the carousel within the Events page.
     -- The .mov file on the CSGO page works locally on branch/LiveServer however GitPages is not able to show files past a certain size, therefore it won't play when deployed to GitPages.
-    ![Error from GitHub regarding video file size.](GitPagesError.png)
+    ![Error from GitHub regarding video file size.](git-pages-error.png)
 
 ### W3C
 
