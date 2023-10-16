@@ -270,3 +270,5 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 - Carousel Radio Buttons - https://uiverse.io/Praashoo7/cold-mayfly-100
 
 - Team cards - https://uiverse.io/htwarriors108/tasty-stingray-56
+
+- Popup window for article images - https://codepen.io/Muhnad/pen/dMbXNb
