@@ -15,24 +15,34 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
     1- As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
+<Image open>
 ![Image of the footer in the final project](/public/images/readme/footer-test-image.png)
-            
+</Image> 
+
     2- I also expect a clear and prominent "Ask us a question" form on the home page to assist me in case I have any questions or need support while navigating the website.
 
+<Image open>
 ![Image of the Ask Us A Question form in the final project](/public/images/readme/ask-a-question-form-image.png)
+</Image>
 
     3- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
+<Image open>
 ![Image of the About section in the sidebar on the homepage](/public/images/readme/about-org-image.png)
-            
+</Image>    
+
     4- As a First Time Visitor, I want to be able to easily navigate throughout the site to find content. 
 
+<Image open>
 ![Image of website's navbar](/public/images/readme/navbar-image.png)       
+</Image>
 
     5- As a First Time Visitor, I want to be able to navigate to Team Endalex's partner websites. 
 
+<Image open>
 ![Image of website's partners](/public/images/readme/partners-image.png)       
-        
+<Image open>
+    
 #### Returning Visitor Goals
 
     1- As a returning User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the organisation or it's teams.
@@ -67,8 +77,6 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 ![Image of Newsletter subscription confirmation page](/public/images/readme/confirmation-newsletter-image.png)
 
-<details open>
-
 ### Media Queries
 
 #### Navbar
@@ -101,8 +109,6 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 - Desktop
 ![Image of the homepage from a Desktop user's perspective](/public/images/readme/homepage-desktop-view.png)
-
-</details>
 
 ### Design
 
