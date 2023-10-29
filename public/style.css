@@ -1001,12 +1001,7 @@ hr {
   visibility: hidden;
   opacity: 0;
 }
-.overlay .cancel {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  cursor: default;
-}
+
 .overlay:target {
   visibility: visible;
   opacity: 1;
@@ -1031,7 +1026,12 @@ hr {
 
 .index-article-content {
   padding-bottom: 10px;
+}
 
+.close-modal-btn, .close-modal-btn a {
+  float: center;
+  color: #262626; 
+  text-decoration: none;
 }
 
 

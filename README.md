@@ -236,12 +236,6 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
-## Notables (regarding assessment criterias)
-
-### File structure within project
-
-- I would have preferred to keep image files, page html files and stylesheets all separate in order to improve organization, however GitPages was unable to work without having them all at the main branch level. As per commits in the early stages of the project, I did have separate folders for different files within the project.
-
 ## Credits
 
 ### Content
@@ -265,10 +259,6 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 - "Subscribe to our newsletter" form - https://uiverse.io/Yaya12085/spicy-panther-48
 
-- Events carousel - https://codepen.io/onion2k/pen/xxZYBVj 
-
-- Carousel Radio Buttons - https://uiverse.io/Praashoo7/cold-mayfly-100
-
 - Team cards - https://uiverse.io/htwarriors108/tasty-stingray-56
 
-- Popup window for article images - https://codepen.io/Muhnad/pen/dMbXNb
+- Popup window for articles - https://www.cssscript.com/demo/minimal-overlay-modal-pure-css/#
