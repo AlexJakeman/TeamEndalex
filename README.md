@@ -9,7 +9,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 ## User Experience (UX)
 
-<details><summary>User Stories</summary>
+### User Stories
 
 #### First Time Visitor Goals
 
@@ -115,10 +115,6 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 </details>
 
-</details>
-
-<details><summary>Media Queries</summary>
-
 #### Navbar
 
 ##### When creating the navbar, a drop-down menu was a more enticing option from a mobile perspective, since this allowed users to see more of the page whilst having easy access to other pages. The desktop view has all pages within a click of a button, since there is more screen real estate to use.
@@ -160,8 +156,6 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 - Desktop
 ![Image of the homepage from a Desktop user's perspective](/public/images/readme/homepage-desktop-view.png)
-
-</details>
 
 </details>
 
