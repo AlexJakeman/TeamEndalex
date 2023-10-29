@@ -28,12 +28,17 @@ It is designed to be responsive and accessible on a range of devices, making it 
     4- As a First Time Visitor, I want to be able to easily navigate throughout the site to find content. 
 
 ![Image of website's navbar](/public/images/readme/navbar-image.png)       
+
+    5- As a First Time Visitor, I want to be able to navigate to Team Endalex's partner websites. 
+
+![Image of website's partners](/public/images/readme/partners-image.png)       
         
 #### Returning Visitor Goals
 
     1- As a returning User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the organisation or it's teams.
 
 ![Image of Newsletter subscription form](/public/images/readme/newsletter-form-image.png)
+![Image of Subscription confirmation page](/public/images/readme/confirmation-newsletter-image.png)
             
     2- As a returning user of Team Endalex's portfolio website, I want to see the latest updates on the teams' performances in Counter Strike, PUBG, and Rocket League on the home page. The "Ask us a question" form should still be readily available on the home page in case I require any assistance during my visit.
 
@@ -42,6 +47,11 @@ It is designed to be responsive and accessible on a range of devices, making it 
     3- As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
 ![Image of the Ask Us A Question form in the final project](/public/images/readme/ask-a-question-form-image.png)
+
+    4- As a Returning Visitor, I want to be able to view videos/galleries surrounding the team page I've selected. I also want to have an easy way to navigate to the page I was on.
+
+![Image of the video on the CS page](/public/images/readme/cs-video-image.png)
+![Image of the galleries on the Streamers page](/public/images/readme/galleries-image.png)
         
 #### Frequent User Goals         
 
@@ -56,6 +66,39 @@ It is designed to be responsive and accessible on a range of devices, making it 
     3- As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
 ![Image of Newsletter subscription confirmation page](/public/images/readme/confirmation-newsletter-image.png)
+
+### Media Queries
+
+#### Navbar
+
+    - When creating the navbar, a drop-down menu was a more enticing option from a mobile perspective, since this allowed users to see more of the page whilst having easy access to other pages. The desktop view has all pages within a click of a button, since there is more screen real estate to use.
+
+- Mobile
+![Image of a Modal from the Mobile user's perspective](/public/images/readme/navbar-mobile-view.png)
+
+- Desktop
+![Image of a Modal from the Desktop user's perspective](/public/images/readme/navbar-desktop-view.png)
+
+#### Modals
+
+    - A lot of time was spent ensuring that the modal windows were compatible with devices made from all sizes. Part of this was to ensure that it would look normal in both landscape and portrait views for desktop and mobile users alike.
+
+- Mobile
+![Image of a Modal from the Mobile user's perspective](/public/images/readme/modal-mobile-view.png)
+
+- Desktop
+![Image of a Modal from the Desktop user's perspective](/public/images/readme/modal-desktop-view.png)
+
+#### Homepage Layout
+
+    - When designing the homepage, I decided to have a sidebar that would contain information about the team, as well as the CEO. A form for users to ask questions was also added as this is easily accessible. This wouldn't have been a viable option when using the website from a mobile POV, so instead these items are added as extra cards at the bottom of the page. 
+
+- Mobile
+![Image of the homepage from a Mobile user's perspective](/public/images/readme/homepage-mobile-view.png)
+
+- Desktop
+![Image of the homepage from a Desktop user's perspective](/public/images/readme/homepage-desktop-view.png)
+
 
 ### Design
 
