@@ -67,6 +67,8 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 ![Image of Newsletter subscription confirmation page](/public/images/readme/confirmation-newsletter-image.png)
 
+<details open>
+
 ### Media Queries
 
 #### Navbar
@@ -82,6 +84,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 #### Modals
 
     - A lot of time was spent ensuring that the modal windows were compatible with devices made from all sizes. Part of this was to ensure that it would look normal in both landscape and portrait views for desktop and mobile users alike.
+    - A challenge within this is being certain that the modal takes up the correct amount of space on the screen, but also being 100% sure that the images and other content will also re-size to the correct point within the modal.
 
 - Mobile
 ![Image of a Modal from the Mobile user's perspective](/public/images/readme/modal-mobile-view.png)
@@ -99,6 +102,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 - Desktop
 ![Image of the homepage from a Desktop user's perspective](/public/images/readme/homepage-desktop-view.png)
 
+</details>
 
 ### Design
 
