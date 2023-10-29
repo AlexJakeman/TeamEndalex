@@ -9,11 +9,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 ## User Experience (UX)
 
-
-
-### User stories
-
-<Details open>
+<details><summary>User Stories</summary>
 
 #### First Time Visitor Goals
 
@@ -71,11 +67,9 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 ![Image of Newsletter subscription confirmation page](/public/images/readme/confirmation-newsletter-image.png)
 
-</Details>
+</details>
 
-### Media Queries
-
-<Details open>
+<details><summary>Media Queries</summary>
 
 #### Navbar
 
@@ -108,11 +102,9 @@ It is designed to be responsive and accessible on a range of devices, making it 
 - Desktop
 ![Image of the homepage from a Desktop user's perspective](/public/images/readme/homepage-desktop-view.png)
 
-</Details>
+</details>
 
-### Design
-
-<Details open>
+<details><summary>Design</summary>
 
 #### Colour Scheme
 
@@ -128,7 +120,7 @@ Oswald is actually a reworking of the classic style historically represented by 
 Imagery is important. The large hero image on the homepage is designed to match the colour theme of the page whilst adding intriguing visuals to entice users. It is contextual whilst also appealing to the eye.
 The images within the store are designed to include the planned merchandise release from the organization, having a zoom effect to help add some interactiveness to the page
 
-</Details>
+</details>
 
 ### Wireframes
 
@@ -193,11 +185,8 @@ https://www.figma.com/file/PKzyS4SEn5Tz7YoC3Jse38/TeamEndalex-Figma---Mobile-%2F
 #### CSS
 
 - There are no clear CSS errors within the project. Checked using W3C VS Code extension (https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
-        
-
-### Testing User Stories from User Experience (UX) Section
     
-<Details open>
+<details><summary>Testing User Stories from User Experience (UX) Section</summary>
 
 #### First Time Visitor Goals
 
@@ -253,7 +242,7 @@ https://www.figma.com/file/PKzyS4SEn5Tz7YoC3Jse38/TeamEndalex-Figma---Mobile-%2F
         b. The form has validation on the field to ensure that a valid email is inputted by the user.
         c. The form leads to a confirmation page that has a message that confirms the user is subscribed, as well as having a clear 'Return Home' button.
 
-</Details>
+</details>
 
 ### Further Testing
 
