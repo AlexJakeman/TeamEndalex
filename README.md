@@ -9,40 +9,34 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 ## User Experience (UX)
 
+
+
 ### User stories
+
+<Expand open>
 
 #### First Time Visitor Goals
 
     1- As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-<Image open>
 ![Image of the footer in the final project](/public/images/readme/footer-test-image.png)
-</Image> 
-
+            
     2- I also expect a clear and prominent "Ask us a question" form on the home page to assist me in case I have any questions or need support while navigating the website.
 
-<Image open>
 ![Image of the Ask Us A Question form in the final project](/public/images/readme/ask-a-question-form-image.png)
-</Image>
 
     3- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-<Image open>
 ![Image of the About section in the sidebar on the homepage](/public/images/readme/about-org-image.png)
-</Image>    
-
+            
     4- As a First Time Visitor, I want to be able to easily navigate throughout the site to find content. 
 
-<Image open>
 ![Image of website's navbar](/public/images/readme/navbar-image.png)       
-</Image>
 
     5- As a First Time Visitor, I want to be able to navigate to Team Endalex's partner websites. 
 
-<Image open>
 ![Image of website's partners](/public/images/readme/partners-image.png)       
-<Image open>
-    
+        
 #### Returning Visitor Goals
 
     1- As a returning User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the organisation or it's teams.
@@ -77,7 +71,11 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 ![Image of Newsletter subscription confirmation page](/public/images/readme/confirmation-newsletter-image.png)
 
+</Expand>
+
 ### Media Queries
+
+<Expand open>
 
 #### Navbar
 
@@ -110,7 +108,11 @@ It is designed to be responsive and accessible on a range of devices, making it 
 - Desktop
 ![Image of the homepage from a Desktop user's perspective](/public/images/readme/homepage-desktop-view.png)
 
+</Expand>
+
 ### Design
+
+<Expand open>
 
 #### Colour Scheme
 
@@ -125,6 +127,8 @@ Oswald is actually a reworking of the classic style historically represented by 
 
 Imagery is important. The large hero image on the homepage is designed to match the colour theme of the page whilst adding intriguing visuals to entice users. It is contextual whilst also appealing to the eye.
 The images within the store are designed to include the planned merchandise release from the organization, having a zoom effect to help add some interactiveness to the page
+
+</Expand>
 
 ### Wireframes
 
@@ -193,6 +197,8 @@ https://www.figma.com/file/PKzyS4SEn5Tz7YoC3Jse38/TeamEndalex-Figma---Mobile-%2F
 
 ### Testing User Stories from User Experience (UX) Section
     
+<Expand open>
+
 #### First Time Visitor Goals
 
     1- As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
@@ -246,7 +252,9 @@ https://www.figma.com/file/PKzyS4SEn5Tz7YoC3Jse38/TeamEndalex-Figma---Mobile-%2F
         a. On the 'Store' page and 'Events' page, there will be a clear subscription form at the bottom of the page for the user to fill out.
         b. The form has validation on the field to ensure that a valid email is inputted by the user.
         c. The form leads to a confirmation page that has a message that confirms the user is subscribed, as well as having a clear 'Return Home' button.
-    
+
+</Expand>
+
 ### Further Testing
 
 - The Website was tested on Google Chrome, Internet Explorer, Opera and Safari browsers.
