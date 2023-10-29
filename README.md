@@ -190,44 +190,44 @@ It is designed to be responsive and accessible on a range of devices, making it 
 https://www.figma.com/file/PKzyS4SEn5Tz7YoC3Jse38/TeamEndalex-Figma---Mobile-%2F-Desktop?type=design&node-id=0%3A1&mode=design&t=VLBbM1FHORznqh9Z-1
 
 
-## Features
+### Features
 
-### - Responsive on all device sizes
+#### - Responsive on all device sizes
 
-### - Interactive elements (cards on events page, interactive zoom on store products, drop-down on navbar)
+#### - Interactive elements (cards on events page, interactive zoom on store products, drop-down on navbar)
 
-### - Help/Questions form on homepage
+#### - Help/Questions form on homepage
 
-## Technologies Used
+### Technologies Used
 
-### Languages Used
+#### Languages Used
 
-#### - HTML
-#### - CSS
-#### - JavaScript
+##### - HTML
+##### - CSS
+##### - JavaScript
 
-### Frameworks, Libraries & Programs Used
+#### Frameworks, Libraries & Programs Used
 
-#### - Google Fonts (https://fonts.google.com/specimen/Oswald?query=oswald):
-#### Google fonts were used to import the 'OSWALD' font into the style.css file which is used on all pages throughout the project.
+##### - Google Fonts (https://fonts.google.com/specimen/Oswald?query=oswald):
+##### Google fonts were used to import the 'OSWALD' font into the style.css file which is used on all pages throughout the project.
 
-#### - Font Awesome (https://fontawesome.com/):
-#### Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+##### - Font Awesome (https://fontawesome.com/):
+##### Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-#### - GitHub (https://github.com/):
-#### GitHub is used to store the projects code after being pushed from Git.
+##### - GitHub (https://github.com/):
+##### GitHub is used to store the projects code after being pushed from Git.
 
-#### - Figma (https://www.figma.com/)
-#### Figma was used to create the wireframes during the design process.
+##### - Figma (https://www.figma.com/)
+##### Figma was used to create the wireframes during the design process.
 
-#### - Uiverse.io (https://uiverse.io/)
-#### Uiverse is a helpful site that gives open-source code for pre-designed HTML/CSS components.
+##### - Uiverse.io (https://uiverse.io/)
+##### Uiverse is a helpful site that gives open-source code for pre-designed HTML/CSS components.
 
-#### - Adobe Stock (https://stock.adobe.com/)
-#### Some images on my website are source from Adobe Stock.
+##### - Adobe Stock (https://stock.adobe.com/)
+##### Some images on my website are source from Adobe Stock.
 
-#### - Printify (printify.com/app/)
-#### Printify was used as a helpful tool to put my custom logos on merchandise for the store page.
+##### - Printify (printify.com/app/)
+##### Printify was used as a helpful tool to put my custom logos on merchandise for the store page.
 
 ## Testing
 
