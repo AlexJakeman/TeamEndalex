@@ -123,10 +123,7 @@ https://www.figma.com/file/PKzyS4SEn5Tz7YoC3Jse38/TeamEndalex-Figma---Mobile-%2F
 
 ### Known Issues
 
-    --   --r: calc(var(--position) - var(--offset));
-    The above line is part of an external code block that is used for the functionality of the carousel within the Events page.
-    -- The .mov file on the CSGO page works locally on branch/LiveServer however GitPages is not able to show files past a certain size, therefore it won't play when deployed to GitPages.
-    ![Error from GitHub regarding video file size.](git-pages-error.png)
+- From the up to date testing that has been performed, there are currently 0 known issues present.
 
 ### W3C
 
@@ -201,7 +198,7 @@ https://www.figma.com/file/PKzyS4SEn5Tz7YoC3Jse38/TeamEndalex-Figma---Mobile-%2F
 
 - The Website was tested on Google Chrome, Internet Explorer, Opera and Safari browsers.
 
-- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX
+- The website was viewed on a variety of devices such as Desktop (OSX & Windows), Laptop (OSX & Windows), Tablet, iOS (iPhone) and Android (Google Pixel).
 
 - A large amount of testing was done to ensure that all pages were linking correctly.
 

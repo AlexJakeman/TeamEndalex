@@ -942,19 +942,6 @@ hr {
   align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .modal {
   margin: 100px auto;
   padding: 20px;
@@ -965,7 +952,11 @@ hr {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   position: relative;
 }
-.modal h2 { margin-top: 0; }
+
+.modal h2 { 
+  margin-top: 0; 
+}
+
 .modal .close {
   position: absolute;
   width: 20px;
@@ -979,16 +970,24 @@ hr {
   text-decoration: none;
   color: #777;
 }
-.modal .close:hover { opacity: 1; }
+
+.modal .close:hover { 
+  opacity: 1; 
+}
+
 .modal .content {
   max-height: 670px;
   overflow: auto;
 }
+
 .modal p {
   margin: 0 0 1em;
   text-align: center;
 }
-.modal p:last-child { margin: 0; }
+
+.modal p:last-child { 
+  margin: 0; 
+}
 
 .overlay {
   position: absolute;
@@ -1029,26 +1028,10 @@ hr {
 }
 
 .close-modal-btn, .close-modal-btn a {
-  float: center;
+  text-align: center;
   color: #262626; 
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ----- Footer -----  */
 
