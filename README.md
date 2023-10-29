@@ -1,6 +1,6 @@
 <h1 align="center">TeamEndalex<h1>
 
-[View the live project here.](https://alexjakeman.github.io/TeamEndalex.github.io)
+[View the live project here.](https://alexjakeman.github.io/TeamEndalex.github.io/public/index.html?)
 
 This is the main marketing website for all things Team Endalex. 
 It is designed to be responsive and accessible on a range of devices, making it easy for potential fans to navigate.
@@ -49,9 +49,9 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 ![Image of the confirmation page after using the Ask Us A Question form](/public/images/readme/question-confirmation-image.png)
                         
-    2- As a Frequent User, I want to check to see if there are any new team-based updates on the homepage.
+    2- As a Frequent User, I want to check to see articles that detail the team's recent activities.
 
-![Image of Homepage Article](/public/images/readme/homepage-article-image.png)
+![Image of Homepage Article](/public/images/readme/article-modal-window.png)
             
     3- As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
@@ -131,11 +131,11 @@ https://www.figma.com/file/PKzyS4SEn5Tz7YoC3Jse38/TeamEndalex-Figma---Mobile-%2F
 
 #### HTML
 
-- There are no clear HTML issues within the project. Checked using W3C VS Code extension (https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
+- There are no clear HTML errors within the project. Checked using W3C VS Code extension (https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
 
 #### CSS
 
-- There is one CSS issue within the project. Checked using W3C VS Code extension (https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
+- There are no clear CSS errors within the project. Checked using W3C VS Code extension (https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
         
 
 ### Testing User Stories from User Experience (UX) Section
@@ -153,7 +153,7 @@ https://www.figma.com/file/PKzyS4SEn5Tz7YoC3Jse38/TeamEndalex-Figma---Mobile-%2F
 
     3- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
         a. The user will open the homepage and be able to read about the ogranization and CEO, as well as recent news for the organization.
-        b. When the user selects Read More on an article to understand better a news article, they will be redirected to an article page.
+        b. When the user selects Read More on an article to understand better a news article, they will be prompted with a pop-up modal for each article.
     
     4- As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.        
         a. The user will be able to navigate through the site using the navigation bar at the top of the page.
@@ -165,7 +165,7 @@ https://www.figma.com/file/PKzyS4SEn5Tz7YoC3Jse38/TeamEndalex-Figma---Mobile-%2F
     1- As a returning User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the organisation or it's teams.
         a. When a user signs up to the newsletter using the form, they will be redirected to the confirmation page.
         b. The confirmation page will have a clear 'Return Home' button and a message that re-assures the user of confirmation that they've subscribed.
-        c. When a user inputs invalid data in the form, they will be given a pop-up error above the field to assist them.
+        c. When a user inputs invalid data in the form, they will be given a pop-up form error above the field to assist them.
 
     2- As a returning user of Team Endalex's portfolio website, I want to see the latest updates on the teams' performances in Counter Strike, PUBG, and Rocket League on the home page. The "Ask us a question" form should still be readily available on the home page in case I require any assistance during my visit.
         a. On the homepage, there are three clear articles with images to attract users.
