@@ -13,23 +13,27 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 #### First Time Visitor Goals
 
-    1- As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+##### 1- As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+
+<details><summary>Expand Images</summary>
 
 ![Image of the footer in the final project](/public/images/readme/footer-test-image.png)
-            
-    2- I also expect a clear and prominent "Ask us a question" form on the home page to assist me in case I have any questions or need support while navigating the website.
+
+</details>
+
+##### 2- I also expect a clear and prominent "Ask us a question" form on the home page to assist me in case I have any questions or need support while navigating the website.
 
 ![Image of the Ask Us A Question form in the final project](/public/images/readme/ask-a-question-form-image.png)
 
-    3- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+##### 3- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
 ![Image of the About section in the sidebar on the homepage](/public/images/readme/about-org-image.png)
             
-    4- As a First Time Visitor, I want to be able to easily navigate throughout the site to find content. 
+##### 4- As a First Time Visitor, I want to be able to easily navigate throughout the site to find content. 
 
 ![Image of website's navbar](/public/images/readme/navbar-image.png)       
 
-    5- As a First Time Visitor, I want to be able to navigate to Team Endalex's partner websites. 
+##### 5- As a First Time Visitor, I want to be able to navigate to Team Endalex's partner websites. 
 
 ![Image of website's partners](/public/images/readme/partners-image.png)       
         
