@@ -316,9 +316,10 @@ input[type=radio] {
   flex-grow: 1;
   text-align: center;
   font-size: 120%;
+  display: block;
 }
 
-.carousel-items-odd h2 {
+#carousel-title-1, #carousel-title-2, #carousel-title-3 {
   background-color: #262626;
   color: #edcd1d;
   font-size: 140%;
@@ -326,11 +327,14 @@ input[type=radio] {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   margin: 0;
+  display: block;
 }
 
-.carousel-items-odd h3 {
+.carousel-content {
   margin-top: 10px;
   line-height: 1.6;
+  display: block;
+  font-weight: bold;
 }
 
 .events-flags {
