@@ -246,10 +246,12 @@ Printify was used as a helpful tool to put my custom logos on merchandise for th
 ### HTML
 
 - There are no clear HTML errors within the project. Checked using W3C VS Code extension (https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
+- I have also run ALL the HTML pages through the following W3C Markup Validation Service, and there are no existing errors/warnings. (https://validator.w3.org/#validate_by_input)
 
 ### CSS
 
 - There are no clear CSS errors within the project. Checked using W3C VS Code extension (https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
+- I have also cut and pasted the entire custom CSS Style Sheet through the following W3C CSS Validator, there are currently no errors existing within the file. (https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ### First Time Visitor Goals
 
