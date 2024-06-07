@@ -248,10 +248,47 @@ Printify was used as a helpful tool to put my custom logos on merchandise for th
 - There are no clear HTML errors within the project. Checked using W3C VS Code extension (https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
 - I have also run ALL the HTML pages through the following W3C Markup Validation Service, and there are no existing errors/warnings. (https://validator.w3.org/#validate_by_input)
 
+-- Ask-confirmation.html
+![Image of the ask-confirmation.html file's validation](/public/images/readme/ask-confirmation-html-validation.png)
+
+-- CSGO.html
+![Image of the csgo.html file's validation](/public/images/readme/csgo-html-validation.png)
+
+-- Events.html
+![Image of the events.html file's validation](/public/images/readme/events-html-validation.png)
+
+-- Index.html
+![Image of the index.html file's validation](/public/images/readme/index-html-validation.png)
+
+-- PUBG.html
+![Image of the pubg.html file's validation](/public/images/readme/pubg-html-validation.png)
+
+-- Rocketleague.html
+![Image of the rocketleague.html file's validation](/public/images/readme/rocketleague-html-validation.png)
+
+-- Store.html
+![Image of the store.html file's validation](/public/images/readme/store-html-validation.png)
+
+-- Streamers.html
+![Image of the streamers.html file's validation](/public/images/readme/streamers-html-validation.png)
+
+-- Subscription-confirmation.html
+![Image of the subscription-confirmation.html file's validation](/public/images/readme/subscription-confirmation-html-validation.png)
+
+
 ### CSS
 
 - There are no clear CSS errors within the project. Checked using W3C VS Code extension (https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
 - I have also cut and pasted the entire custom CSS Style Sheet through the following W3C CSS Validator, there are currently no errors existing within the file. (https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+-- Style.css
+![Image of the style.css file's validation](/public/images/readme/style-css-validation.png)
+![Image of the style.css file's validation](/public/images/readme/style-css-validation-extension.png)
+
+### JS (Validate Javascript (https://validatejavascript.com))
+
+-- Script.js
+![Image of the script js file's validation](/public/images/readme/script-js-validation.png)
 
 ### First Time Visitor Goals
 
